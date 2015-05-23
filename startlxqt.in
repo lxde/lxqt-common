@@ -9,7 +9,7 @@ if [ -z "$XDG_CONFIG_HOME" ]; then
 fi
 
 if [ -z "$XDG_DATA_DIRS" ]; then
-	export XDG_DATA_DIRS="$XDG_DATA_HOME:/usr/local/share/:/usr/share/"
+	export XDG_DATA_DIRS="$XDG_DATA_HOME:@CMAKE_INSTALL_PREFIX@/share/"
 fi
 
 # Ensure the existance of the 'Desktop' folder
