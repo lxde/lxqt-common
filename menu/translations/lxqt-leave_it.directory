@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Leave
+Comment=Leave Session
+Icon=system-shutdown
+Type=Directory
+
+Name[it]=Esci
+Comment[it]=Chiudere la sessione
