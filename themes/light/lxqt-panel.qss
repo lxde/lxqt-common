@@ -178,6 +178,21 @@ TrayIcon {
     color: #EEEEEE;
 }
 
+#MainMenu ActionView {
+    background: palette(window);
+    border: 1px solid transparent;
+}
+
+#MainMenu ActionView::item {
+    padding: 2px 0;
+}
+
+#MainMenu QLineEdit {
+    background: transparent;
+    border: none;
+    padding: 6px;
+    margin-bottom: 1px;
+}
 
 /*
  * Mount plugin

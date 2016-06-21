@@ -286,7 +286,6 @@ TrayIcon {
 
 #MainMenu  QMenu {
     margin: 4px;
-    background-color: hsv(0, 0, 41);
 }
 #MainMenu  QMenu::icon {
     background-color: transparent;
@@ -305,9 +304,29 @@ TrayIcon {
     background: rgba(255, 255, 255, 20%);
 }
 
+#MainMenu QLineEdit {
+    background: transparent;
+    border: none;
+    padding: 6px;
+    margin-bottom: 1px;
+    color: palette(window);
+}
 
+#MainMenu ActionView {
+    border: none;
+    background: palette(text);
+    color: palette(window);
+}
 
+#MainMenu ActionView::item {
+    border: 1px solid transparent;
+    padding: 3px 0;
+}
 
+#MainMenu ActionView::item:selected, ActionView::item:hover {
+    background: palette(highlight);
+    color: palette(highlighted-text);
+}
 
 /*
  * Mount plugin
