@@ -199,7 +199,7 @@ QCalendarWidget QSpinBox {
 }
 
 #MainMenu QLineEdit {
-    background: transparent;
+    background: palette(text);
     border: none;
     padding: 6px;
     margin-bottom: 1px;
@@ -213,7 +213,7 @@ QCalendarWidget QSpinBox {
 }
 
 #MainMenu ActionView::item {
-    border: 1px solid transparent;
+    border: 1px solid palette(text);
     padding: 3px 0;
 }
 

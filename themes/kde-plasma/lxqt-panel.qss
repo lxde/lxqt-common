@@ -88,7 +88,7 @@ QMenu::right-arrow {
 }
 
 #MainMenu QLineEdit {
-    background: transparent;
+    background: palette(window);
     border: none;
     padding: 6px;
     margin-bottom: 1px;

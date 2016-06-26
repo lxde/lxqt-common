@@ -71,6 +71,31 @@ Plugin > QWidget > QToolButton:pressed {
 }
 
 /*
+ * Menus
+ */
+QMenu {
+    background: palette(window);
+    border: 1px solid #AAA;
+    border-radius: 2px;
+    color: palette(text);
+}
+
+QMenu::item {
+    color: palette(text);
+    padding: 5px 27px;
+}
+
+QMenu::item:selected {
+    background: palette(highlight);
+    color: palette(highlighted-text);
+}
+
+QMenu::icon {
+    border-color: 1px solid palette(window);
+    padding-left: 7px;
+}
+
+/*
  * Desktopswitch
  */
 #DesktopSwitch {}
@@ -180,7 +205,8 @@ TrayIcon {
 
 #MainMenu ActionView {
     background: palette(window);
-    border: 1px solid transparent;
+    border: none;
+    color: palette(text);
 }
 
 #MainMenu ActionView::item {
@@ -188,8 +214,9 @@ TrayIcon {
 }
 
 #MainMenu QLineEdit {
-    background: transparent;
+    background: palette(window);
     border: none;
+    color: palette(text);
     padding: 6px;
     margin-bottom: 1px;
 }

@@ -286,7 +286,9 @@ TrayIcon {
 
 #MainMenu  QMenu {
     margin: 4px;
+    background: palette(text);
 }
+
 #MainMenu  QMenu::icon {
     background-color: transparent;
 }
@@ -305,7 +307,7 @@ TrayIcon {
 }
 
 #MainMenu QLineEdit {
-    background: transparent;
+    background: palette(text);
     border: none;
     padding: 6px;
     margin-bottom: 1px;
@@ -319,7 +321,7 @@ TrayIcon {
 }
 
 #MainMenu ActionView::item {
-    border: 1px solid transparent;
+    border: 1px solid palette(text);
     padding: 3px 0;
 }
 
