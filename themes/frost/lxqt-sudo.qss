@@ -1,0 +1,15 @@
+/*
+ * lxqt-sudo dialog
+ */
+ 
+ #PasswordDialog {
+    background:#2D2D2D;
+}
+
+#descriptionL,#descCommandL,#commandL,#descPasswordL {
+    color:white
+}
+
+#errorL {
+    color:#989995
+}
